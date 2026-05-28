@@ -1,2 +1,17 @@
-/.venv
-/Backup
+# Local Backup folder to exclude from GitHub repo
+Backup/
+
+# Python virtual environment directories
+.venv/
+venv/
+ENV/
+
+# Python compilation artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Application local tracking configuration caches
+.cache/
+.config/
